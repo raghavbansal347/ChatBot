@@ -1,0 +1,107 @@
+/*! CSS Used from: https://niki.sdk.niki.ai/static/css/main.47ad0772.css */
+.AppWrapper,.Niki-app{height: 100%;}
+p{margin:0;padding:0;}
+b{font-family:GothamRoundedMedium,sans-serif;font-weight:500;}
+:focus{outline:none;}
+::-moz-focus-inner{border:0;}
+::-webkit-scrollbar{min-width:1px;min-height:1px;}
+input[type=text]::-ms-clear{display:none;}
+.hide{display:none;}
+.truncate{white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;}
+.Page{width:100%;height:100%;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/9232bc46-692c-4ade-aaea-5f90459d4b07 */
+.Notifier{position:absolute;top:0;z-index:1;width:100%;padding:12px 10px 10px;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:14px;background:#efefef;-webkit-box-shadow:0 1px 10px rgba(0,0,0,.2);box-shadow:0 1px 10px rgba(0,0,0,.2);}
+.Notifier.hide{display:none;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/62df854b-6cd7-4bb9-b792-f36c261d4ab8 */
+.App{position: absolute;min-width:320px;max-width:420px;height: 70%;margin:auto;text-align:center;right: 0;bottom: 0;background:#fff;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/e4b0a04b-ff47-4099-8551-13b001f8656c */
+.ChatHeader{-ms-flex-pack:justify;justify-content:space-between;min-height:50px;text-align:left;border-bottom:1px solid #dfdfdf;-webkit-box-shadow:0 1px 3px rgba(0,0,0,.1);box-shadow:0 1px 3px rgba(0,0,0,.1);z-index:1;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.ChatHeader,.ChatHeader .Heading-group{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;}
+.ChatHeader .Heading-group{-ms-flex-pack:start;justify-content:flex-start;width:100%;}
+.ChatHeader .title{font-size:16px;font-family:GothamRoundedMedium,sans-serif;color:#4e4e4e;width:100%;padding-right:50px;padding-left:10px;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.BrandGroup{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;}
+.BrandGroup,.BrandGroup.left{text-align:left;}
+.BrandSubHeader{font-size:11px;font-family:GothamRoundedBook,sans-serif;}
+.ChatHeader .sidebar-toggle{font-size:16px;line-height:16px;width:15px;height:15px;padding:17px 15px;color:#4e4e4e;cursor:pointer;}
+.ChatHeader .sidebar-toggle:hover{background:rgba(0,0,0,.05);}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/791c5348-d936-4f27-ba85-3267b233f520 */
+.Listicle{-ms-flex-positive:1;flex-grow:1;padding:8px;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;color:#19a8f3;font-family:GothamRoundedMedium,sans-serif;font-size:12px;text-transform:capitalize;background:none;border:none;border-top:1px solid rgba(0,0,0,.2);cursor:pointer;outline:none;margin:0;}
+.Listicle.fit-two{-ms-flex-preferred-size:50%;flex-basis:50%;width:50%;}
+.Listicle.fit-two:nth-child(odd):not(:last-child){border-right:1px solid rgba(0,0,0,.2);}
+.Listicle:disabled{opacity:.6;cursor:default;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/c248cbdf-78af-495c-a08d-fd98761f8d09 */
+.Listicle-Container{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.Listicle-Container.min-width{min-width:200px;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/3e73ae12-f41f-45b5-8148-33a6b69dccc5 */
+.Message{position:relative;}
+.Message:not(.card-list){width:auto;max-width:80%;margin:5px 0;background:#fff;border-radius:14px;text-align:left;-webkit-box-shadow:0 1px rgba(0,0,0,.1);box-shadow:0 1px rgba(0,0,0,.1);}
+.Message.message-received:not(.card-list){-ms-flex-item-align:start;align-self:flex-start;border-bottom-left-radius:3px;}
+.Message.message-sent:not(.card-list){-ms-flex-item-align:end;align-self:flex-end;background:#0096ff;border-color:#0096ff;color:#fff;border-bottom-right-radius:3px;}
+.Message-text{padding:8px 12px;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/762c1ec7-8c4d-42dd-9805-cf52baea13da */
+.MessageList{height:100%;background:#f0f3f6;overflow-y:auto;overflow-x:hidden;-ms-flex-align:end;align-items:flex-end;}
+.MessageList,.MessageList-wrapper{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;}
+.MessageList-wrapper{-ms-flex-pack:end;justify-content:flex-end;height:auto;min-height:100%;padding:5px 10px;-webkit-box-sizing:border-box;box-sizing:border-box;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/7021bfc5-5ffe-4236-ad5c-0b3c9618eafc */
+.ChatHint{position:relative;padding:5px 10px;background:#fff5c5;color:#848484;text-align:left;font-size:11px;border-top:1px solid #feb;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.ChatHint .hint{display:inline-block;width:90%;}
+.ChatHint .close{display:inline-block;width:22px;position:absolute;top:5px;right:10px;padding:0;background:none;color:#848484;border:none;cursor:pointer;}
+.ChatHint .close:hover{color:#4e4e4e;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/09339839-1e28-46d4-b250-5c0d8e47147b */
+.TrayDomainButton{position:relative;height:100%;width:50px;font-size:20px;padding:15px;cursor:pointer;-webkit-transition:all .35s ease;-o-transition:all .35s ease;transition:all .35s ease;-webkit-box-sizing:border-box;box-sizing:border-box;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;}
+.TrayDomainCancelIcon{position:absolute;right:8px;top:8px;font-size:20px;}
+.TrayDomainButton:hover{-webkit-filter:brightness(90%);filter:brightness(90%);}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/0b8f684d-7c7f-4499-84e1-e6a64ac32f31 */
+.ChatInput-action{width:50px;height:50px;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.ChatInput-send{width:100%;height:100%;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:26px;color:#0096ff;cursor:pointer;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;}
+.ChatInput-send:hover{-webkit-filter:brightness(90%);filter:brightness(90%);}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/2fd78db1-b84a-4d31-92a1-a42f9464f834 */
+.ChatInput{background:#fff;min-height:50px;border-top:1px solid #dfdfdf;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.ChatInput-wrapper{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;}
+.ChatInput-area{-ms-flex-positive:1;flex-grow:1;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/66753de6-cb8e-4377-83ac-d3c151adfe4a */
+.NikiLibs-TabsContainer{position:relative;overflow-x:auto;height:47px;border-bottom:1px solid #dfdfdf;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.NikiLibs-Tabs{position:absolute;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;height:100%;}
+.NikiLibs-TabsUnderBarContainer{position:absolute;bottom:0;width:100%;height:4px;}
+.NikiLibs-TabsUnderBarWrapper{position:relative;height:100%;}
+.NikiLibs-TabsUnderBar{position:absolute;left:0;height:100%;-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;background-color:#0096ff;}
+.NikiLibs-TabControls{position:absolute;top:0;bottom:0;width:40px;font-size:20px;padding:13px 0;background:hsla(0,0%,100%,.8);cursor:pointer;}
+.NikiLibs-TabControls.control-left{left:0;text-align:left;}
+.NikiLibs-TabControls.control-right{right:0;text-align:right;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/54712272-6c65-4e00-97c5-5222382aafe3 */
+.NikiLibs-Tab{height:100%;}
+.NikiLibs-Tab:hover{background-color:#f8f8f8;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/4b570305-ed66-4218-9c0c-4ded2c38280c */
+.DomainSuggestionList{overflow-y:auto;height:100%;text-align:left;}
+.DomainSuggestion{padding:10px;color:#8e8e8e;border-bottom:1px solid #f8f8f8;-webkit-box-sizing:border-box;box-sizing:border-box;cursor:pointer;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/a0464587-7d86-4a67-97d0-a4c4b29d6a9a */
+.DomainSuggestionsTray{min-height:0;height:0;overflow:hidden;border-top:1px solid #dfdfdf;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all .35s ease;-o-transition:all .35s ease;transition:all .35s ease;}
+.DomainTrayTabItem{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;height:100%;font-size:20px;cursor:pointer;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/a9cd6ea2-ece3-4f42-a86c-5d2fa8e642a4 */
+.ChatContainer{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:start;justify-content:flex-start;height:100%;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/5a96b01c-c0af-4cbe-abd8-88a6b46b3a18 */
+.UserBanner{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;background:#f5f5f5;padding:35px 15px;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.UserBanner .UserInitial{-ms-flex:0 0 60px;flex:0 0 60px;width:60px;height:60px;border-radius:50%;overflow:hidden;}
+.UserBanner .UserInitial .initial{display:block;width:100%;height:100%;background:#fff;line-height:60px;font-size:32px;color:#4e4e4e;font-family:GothamRoundedBook,sans-serif;}
+.UserBanner .UserDetails{-ms-flex:1 1;flex:1 1;overflow:hidden;text-align:left;margin-left:15px;}
+.UserBanner .UserDetails .UserDetails-name{font-size:13px;text-transform:uppercase;font-family:GothamRoundedMedium,sans-serif;color:#2d2d2d;}
+.UserBanner .UserDetails .UserDetails-email,.UserBanner .UserDetails .UserDetails-phone{color:#2d2d2d;margin-top:4px;}
+.UserBanner .UserDetails .UserDetails-credits{font-family:GothamRoundedMedium,sans-serif;font-size:12px;margin-top:4px;color:#0096ff;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/73e4988d-9004-4cf3-9e1d-0f98e31ca22d */
+.SidebarMenu{text-align:left;padding:10px 0;}
+.SidebarMenu .menu-item a{display:block;padding:10px 16px;color:#4e4e4e;text-decoration:none;}
+.SidebarMenu .menu-item a:hover{color:#2e2e2e;}
+.menu-item .menu-icon{padding:2px 6px 4px 4px;vertical-align:middle;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/10c0a0a0-45a9-42fd-a419-3498662b761f */
+.SidebarContainer{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:start;justify-content:flex-start;position:absolute;top:0;right:0;left:0;bottom:0;background:rgba(0,0,0,.4);opacity:0;visibility:hidden;overflow:hidden;-webkit-transition:opacity .3s ease-out,visibility .3s ease-out;-o-transition:opacity .3s ease-out,visibility .3s ease-out;transition:opacity .3s ease-out,visibility .3s ease-out;z-index:1;}
+.SidebarContainer .Sidebar{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;width:80%;height:100%;background:#fff;border-bottom:1px solid #dfdfdf;-webkit-transform:translateX(-100%);-ms-transform:translateX(-100%);transform:translateX(-100%);will-change:transform;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;opacity:0;}
+/*! CSS Used from: blob:https://niki.sdk.niki.ai/b0585923-9e21-47c1-ba9a-d5a1bd095cc3 */
+.Home{height:100%;}
+/*! CSS Used from: Embedded */
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+/*! CSS Used from: Embedded */
+.react-swipeable-view-container{display:-webkit-box;display:-ms-flexbox;}
+.react-swipeable-view-container > div{-ms-flex-negative:0;}
+/*! CSS Used fontfaces */
+@font-face{font-family:'GothamRoundedMedium';src:url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-medium.eot');src:url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-medium.eot') format('embedded-opentype'),   url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-medium.woff') format('woff'),   url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-medium.ttf') format('truetype'),   url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-medium.svg#GothamRoundedMedium') format('svg');}
+@font-face{font-family:'GothamRoundedBook';src:url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-book.eot');src:url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-book.eot') format('embedded-opentype'),   url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-book.woff') format('woff'),   url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-book.ttf') format('truetype'),   url('https://niki.sdk.niki.ai/assets/fonts/gothamrnd-book.svg#GothamRoundedBook') format('svg');}
